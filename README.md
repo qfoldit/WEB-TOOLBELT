@@ -3,7 +3,17 @@ A lightweight, web-native AI execution toolbelt and **Model Context Protocol (MC
 
 Unlike desktop-bound engines (such as Unity or UNIGINE), **WEB-TOOLBELT** runs entirely inside the browser sandboxed environment. It bridges the gap between text-based AI reasoning and real-time physical 3D execution using standard web technologies.
 
-## 🚀 Key Features*   **Zero-Installation Sandbox:** Runs completely in-browser via WebGL/WebGPU. No heavy local installations, IDEs, or compilation cycles required.*   **Model Context Protocol (MCP) Native:** Exposes 3D scene-graph manipulation, telemetry gathering, and physics controls directly to Claude Science via standardized JSON-RPC tools.*   **High-Performance Web Physics:** Integrates **Rapier.js** (compiled to WebAssembly) for lightning-fast rigid body physics, collision detection, and kinematics tracking.*   **Reactive 3D Rendering:** Powered by **Three.js** for immediate visual feedback of molecular structures (e.g., Boltz-2 outputs), vector fields, and robotic simulations.*   **Multimodal Vision Loop:** Built-in viewport capture allows Claude to take high-resolution canvas screenshots to visually verify rendering accuracy.
+## 🚀 Key Features*  
+
+**Zero-Installation Sandbox:** Runs completely in-browser via WebGL/WebGPU. No heavy local installations, IDEs, or compilation cycles required.*  
+
+**Model Context Protocol (MCP) Native:** Exposes 3D scene-graph manipulation, telemetry gathering, and physics controls directly to Claude Science via standardized JSON-RPC tools.*   **High-Performance Web Physics:** Integrates 
+
+**Rapier.js** (compiled to WebAssembly) for lightning-fast rigid body physics, collision detection, and kinematics tracking.*  
+
+**Reactive 3D Rendering:** Powered by **Three.js** for immediate visual feedback of molecular structures (e.g., Boltz-2 outputs), vector fields, and robotic simulations.*   
+
+**Multimodal Vision Loop:** Built-in viewport capture allows Claude to take high-resolution canvas screenshots to visually verify rendering accuracy.
 
 ## 🏗️ Architecture
 ```
