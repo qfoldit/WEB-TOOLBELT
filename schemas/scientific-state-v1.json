@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://qfoldit.org/schemas/scientific-state/v1",
+  "title": "qFoldIT Scientific State v1",
+  "type": "object",
+  "required": ["schema", "stateId", "timestamp", "domain", "objects"],
+  "properties": {
+    "schema": { "const": "qfoldit.scientific-state/v1" },
+    "stateId": { "type": "string" },
+    "timestamp": { "type": "number" },
+    "domain": { "type": "string" },
+    "objects": { "type": "array" },
+    "trajectories": { "type": "array" },
+    "observations": { "type": "array" },
+    "metrics": { "type": "object", "additionalProperties": { "type": "number" } },
+    "metadata": { "type": "object" }
+  }
+}
