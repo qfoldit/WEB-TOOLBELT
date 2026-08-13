@@ -1,0 +1,29 @@
+name: build
+
+# Type-checks and production-builds the toolbelt on every push and PR.
+# There is no test/ suite here yet -- this only guards against the build
+# silently breaking (see STATUS.md: a missing `vite/client` types entry
+# broke `npm run build` before this workflow existed).
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Type-check and build
+        run: npm run build

@@ -3,4 +3,6 @@
   "base_revision": "db71a18c6927ec2d716f7099856aec11f11ee5ab",
   "purpose": "qFoldIT architectural foundation",
   "generated_files": 31
+,
+  "license": "AGPL-3.0-only"
 }

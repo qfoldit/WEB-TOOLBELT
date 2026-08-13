@@ -173,6 +173,18 @@ VITE_WEBMCP_ENABLED=true
 
 Never put private credentials in browser configuration.
 
+## qFoldIT Toolbelt Attribution
+
+This repository follows the qFoldIT Toolbelt licensing and visible-attribution
+standard. Derivative tools, plugins, applications, or services that use, derive
+from, or are substantially built upon this codebase or its architecture must
+provide a visible credit naming qFoldIT and linking to this repository.
+
+Recommended credit:
+
+> Built on qFoldIT WEB-TOOLBELT by qFoldIT
+> (https://github.com/qfoldit/WEB-TOOLBELT)
+
 ## Licensing
 
 qFoldIT WEB-TOOLBELT is licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**. See [`LICENSE`](LICENSE).

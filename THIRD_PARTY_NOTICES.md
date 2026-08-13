@@ -1,5 +1,7 @@
 # Third-Party Notices
 
+The qFoldIT WEB-TOOLBELT repository code is licensed under AGPL-3.0 with the qFoldIT visible-attribution requirement. The attribution requirement is part of the repository licensing terms; it does not relicense third-party works.
+
 qFoldIT WEB-TOOLBELT is licensed under AGPL-3.0 for the qFoldIT-authored repository code. This license does not replace, supersede, or grant rights under licenses applicable to third-party software, scientific projects, datasets, media, trademarks, or services.
 
 ## Scientific and reference projects

@@ -1,4 +1,68 @@
-                    GNU AFFERO GENERAL PUBLIC LICENSE
+AGPL-3.0 License with Visible Attribution Requirement
+
+Copyright (c) 2026 qFoldIT
+
+qFoldIT WEB-TOOLBELT — including its browser-native scientific execution and
+visualization architecture, canonical scientific-state interfaces, tool registry,
+MCP/WebMCP boundary, adapter contracts, scene and physics runtime, telemetry
+systems, and all source code in this repository — is licensed under the GNU
+Affero General Public License v3.0, with the additional visible attribution
+requirement below.
+
+────────────────────────────────────────────────────────────────────────────────
+EXCEPTION: `static/web-toolbelt/`
+────────────────────────────────────────────────────────────────────────────────
+
+The `static/web-toolbelt/` directory (a vendored copy of the companion
+`qfoldit.github.io/web-toolbelt/` sandbox) is NOT covered by this AGPL-3.0
+license. It carries its own, separate All-Rights-Reserved license — see
+`static/web-toolbelt/LICENSE` for the actual terms. This is the one
+exception to "all source code in this repository" above.
+
+────────────────────────────────────────────────────────────────────────────────
+ADDITIONAL TERM (permitted under AGPL-3.0 Section 7):
+────────────────────────────────────────────────────────────────────────────────
+
+Any tool, plugin, application, or service that uses, derives from, or is
+substantially built upon this codebase or its architecture must include a visible
+credit in one or more of the following locations:
+
+  - The tool's public-facing README or documentation
+  - The tool's in-editor about panel or credits screen
+  - The tool's store page, landing page, or repository description
+
+The credit must read, at minimum:
+
+  "Built on qFoldIT WEB-TOOLBELT by qFoldIT
+   (https://github.com/qfoldit/WEB-TOOLBELT)"
+
+  or an equivalent that names qFoldIT and links to this repository.
+
+This requirement applies regardless of how substantially the code was modified.
+────────────────────────────────────────────────────────────────────────────────
+
+Core license terms:
+
+1. Attribution: Retain this copyright notice and the visible credit above in
+   any derivative work, fork, or project that uses this toolbelt or its
+   architecture.
+
+2. Copyleft: Derivative works must be released under AGPL-3.0. You may not
+   incorporate this code into a closed-source tool, plugin, or product.
+
+3. Network use: If you run a modified version as a hosted or networked service
+   (e.g., a web-based qFoldIT scientific execution or automation service), you
+   must make the complete modified source code publicly available. Running a
+   hosted service counts.
+
+4. Commercial use by the original author: qFoldIT, as copyright holder,
+   reserves the right to release commercial versions of this software under
+   separate licensing terms. This does not affect the open-source rights
+   granted to the community under this license.
+
+Full AGPL-3.0 license text: https://www.gnu.org/licenses/agpl-3.0.en.html
+
+GNU AFFERO GENERAL PUBLIC LICENSE
                        Version 3, 19 November 2007
 
  Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
