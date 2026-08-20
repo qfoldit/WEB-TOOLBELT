@@ -1,0 +1,38 @@
+{
+  "spec": "qfoldit.engine-adapter/0.1",
+  "platform": {
+    "contract_family": "qfoldit.platform/1.0"
+  },
+  "engine": {
+    "id": "web",
+    "name": "qFoldIT WEB-TOOLBELT",
+    "version": "Web / Node.js 20+"
+  },
+  "adapter": {
+    "id": "qfoldit-web-toolbelt",
+    "version": "1.0.0"
+  },
+  "contracts": {
+    "uag": "qfoldit.uag/0.1"
+  },
+  "capabilities": [
+    { "id": "scene.graph", "level": "native", "status": "supported" },
+    { "id": "scene.snapshot", "level": "adapter", "status": "supported" },
+    { "id": "node.create", "level": "native", "status": "supported" },
+    { "id": "node.update", "level": "native", "status": "supported" },
+    { "id": "node.delete", "level": "native", "status": "supported" },
+    { "id": "node.group", "level": "adapter", "status": "supported" },
+    { "id": "node.parent", "level": "adapter", "status": "supported" },
+    { "id": "geometry.procedural", "level": "native", "status": "supported" },
+    { "id": "materials", "level": "native", "status": "supported" },
+    { "id": "camera", "level": "native", "status": "supported" },
+    { "id": "lighting", "level": "native", "status": "supported" },
+    { "id": "physics", "level": "native", "status": "supported" },
+    { "id": "physics.joints", "level": "adapter", "status": "partial" },
+    { "id": "interaction", "level": "adapter", "status": "supported" },
+    { "id": "uag.validate", "level": "adapter", "status": "supported" },
+    { "id": "uag.apply", "level": "adapter", "status": "supported" },
+    { "id": "scientific.visualization", "level": "adapter", "status": "supported" }
+  ],
+  "notes": "Browser-native runtime and adapter layer. Scientific computation remains external and authoritative outside the browser runtime."
+}
