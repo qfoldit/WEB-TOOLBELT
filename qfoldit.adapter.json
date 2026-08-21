@@ -1,20 +1,9 @@
 {
   "spec": "qfoldit.engine-adapter/0.1",
-  "platform": {
-    "contract_family": "qfoldit.platform/1.0"
-  },
-  "engine": {
-    "id": "web",
-    "name": "qFoldIT WEB-TOOLBELT",
-    "version": "Web / Node.js 20+"
-  },
-  "adapter": {
-    "id": "qfoldit-web-toolbelt",
-    "version": "1.0.0"
-  },
-  "contracts": {
-    "uag": "qfoldit.uag/0.1"
-  },
+  "platform": { "contract_family": "qfoldit.platform/1.0" },
+  "engine": { "id": "web", "name": "qFoldIT WEB-TOOLBELT", "version": "Web / Node.js 20+" },
+  "adapter": { "id": "qfoldit-web-toolbelt", "version": "1.1.0" },
+  "contracts": { "uag": "qfoldit.uag/0.1", "scientific_environment": "qfoldit.scientific-environment/1.0" },
   "capabilities": [
     { "id": "scene.graph", "level": "native", "status": "supported" },
     { "id": "scene.snapshot", "level": "adapter", "status": "supported" },
@@ -32,7 +21,15 @@
     { "id": "interaction", "level": "adapter", "status": "supported" },
     { "id": "uag.validate", "level": "adapter", "status": "supported" },
     { "id": "uag.apply", "level": "adapter", "status": "supported" },
-    { "id": "scientific.visualization", "level": "adapter", "status": "supported" }
+    { "id": "scientific.visualization", "level": "adapter", "status": "supported" },
+    { "id": "scientific.environment.particles", "level": "adapter", "status": "partial" },
+    { "id": "scientific.environment.fluids", "level": "adapter", "status": "partial" },
+    { "id": "scientific.environment.volumetrics", "level": "adapter", "status": "partial" },
+    { "id": "scientific.environment.fields", "level": "adapter", "status": "partial" },
+    { "id": "scientific.environment.materials", "level": "adapter", "status": "partial" },
+    { "id": "experience.build_mode", "level": "adapter", "status": "supported" },
+    { "id": "experience.racing_mode", "level": "adapter", "status": "supported" },
+    { "id": "quantum.opportunity_scheduling", "level": "platform", "status": "supported" }
   ],
-  "notes": "Browser-native runtime and adapter layer. Scientific computation remains external and authoritative outside the browser runtime."
+  "notes": "Browser-native runtime and adapter layer. Scientific environment effects are contract-aligned; partial effects require implementation benchmarks per browser/GPU profile before production claims."
 }
